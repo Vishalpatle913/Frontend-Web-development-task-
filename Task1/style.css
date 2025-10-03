@@ -1,0 +1,125 @@
+@font-face {
+    font-family: header;
+    src: url(./Berosong-Regular.ttf);
+}
+
+@font-face {
+    font-family:header1;
+    src: url(./Symphonigraphy\ Regular.otf);
+}
+
+@font-face {
+    font-family: header2;
+    src: url(./Ndot-55.otf);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #f6eee5;
+}
+#header{
+    height: 130px;
+    width: 100%;
+    background-color: #082640;
+    color: white;
+    text-transform: capitalize;
+    text-align: center;
+}
+#myname{
+    font-size: 45px;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-family: header;
+}
+#profession{
+    font-size: 25px;
+    font-weight: 200;
+    font-family: header2;
+    letter-spacing: 1px;
+    color: rgb(201, 26, 26);
+}
+.box{
+    width: 90%;
+    border: 1px solid rgb(1, 18, 18);
+    margin: auto;
+    margin-top: 40px;
+    text-align: center;
+    box-shadow: 3px 3px 5px rgb(41, 48, 52);
+    border-radius: 15px;
+
+}
+#box1{
+    height: 200px;
+    background-color:rgb(255, 255, 255);
+}
+.heading{
+    font-size: 32px;
+    font-weight: 700;
+    font-family: Helvetica, sans-serif;
+    text-transform: uppercase;
+    padding-top: 40px;
+}
+#paragraph{
+    margin-top: 17px;
+    font-size: 19px;
+    font-weight: 600;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 25px;
+}
+
+#box2{
+    background-color: rgb(188, 236, 255);
+    height: 250px;
+}
+
+.div-box{
+    font-size: 19px;
+    font-weight: 600;
+    padding-top: 10px;
+    margin-top: 16px;
+    background-color: white;
+    height: 40px;
+    width: 60%;
+    border: 0.5px solid black;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 280px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+#box3{
+    height: 330px;
+    background-color: rgb(219, 219, 148);
+}
+
+#box4{
+    height: 330px;
+    background-color: rgb(247, 196, 247);
+}
+
+#box5{
+    height: 270px;
+    background-color: rgb(180, 244, 223);
+}
+
+footer{
+    background-color: #082640;
+    height: 50px;
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+}
+.foot{
+    padding-top: 20px;
+    font-family: header2;
+    font-size: 15px;
+}
