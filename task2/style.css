@@ -1,0 +1,65 @@
+@font-face {
+    font-family:hon1;
+    src: url(./Spooky\ Phantom.ttf);
+}
+@font-face {
+    font-family: hon2;
+    src: url(./Freakdrip.otf)
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    background-image: url(./hellowin.webp);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+h1{
+    font-family: hon2;
+    font-size: 70px;
+    color:#F8A46C;
+    text-transform: capitalize;
+    padding-top: 40px;
+}
+h2{
+    font-family: hon1;
+    font-size: 40px;
+    color: #523359;
+    text-transform: capitalize;
+    padding-top: 20px;
+}
+button{
+    font-family: hon2;
+    font-size: 30px;
+    color: #F8A46C;
+    background-color:#7E5DAA ;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 20px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #F8A46C;
+    color: #7E5DAA;
+    transition: all 0.7s ease;
+}
+#mainp{
+    width: 40%;
+    margin-left: 60%;
+    margin-top: 210px;
+    background-color: #beb7b3;
+    color:#6B4A88;
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 20px;
+}
