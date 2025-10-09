@@ -18,7 +18,7 @@ This project highlights modern web styling with a soft color palette, smooth hov
 ## 🛠️ Technologies Used  
 
 - *HTML5* — For webpage structure  
-- *CSS3* — For styling, animations, and layout  
+- *CSS3* — For styling, and layout  
   - Flexbox for alignment  
   - CSS position properties  
   - Transition effects for hover animations  
@@ -34,7 +34,7 @@ This project highlights modern web styling with a soft color palette, smooth hov
 
 ## 📸 Preview
 
-![Sweaters Preview](./sweaters-preview.png)
+![Sweaters Preview]
 ![alt text](pic.png)
 
 ---
@@ -43,4 +43,4 @@ This project highlights modern web styling with a soft color palette, smooth hov
 
 1. Clone the repository
    ```bash
-   git clone
+   git clone https://github.com/Vishalpatle913/Frontend-Web-development-task-.git
