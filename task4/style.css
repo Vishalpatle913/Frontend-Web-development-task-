@@ -1,0 +1,321 @@
+@font-face {
+    font-family: ap;
+    src: url(./sf-pro-display_regular.woff2);
+}
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:ap;
+}
+html,body {
+    height:100%;
+    width:100%;
+    background-color:white;
+}
+/* navbar */
+
+#navbar{
+    height: 60px;
+    width: 100%;
+    background-color:#FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    position:fixed;
+}
+#navbar li a{
+    color:white;
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+}
+#navbar li {
+    list-style: none;
+}
+#navbar li a i{
+    font-size: 18px;
+}
+
+/* hero1 */
+#diwali-manu{
+    width: 100%;
+    height: 80%;
+    background-image: url(./hero_diwali_2025.jpg);
+    background-size: contain;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 110px;
+    text-align: center;
+}
+
+#diwali-manu1 h2{
+    text-align: center;
+    font-size: 60px;
+    font-weight: 800;
+    cursor: pointer;
+}
+#diwali-manu1 p{
+    font-size: 28px;
+    font-weight: 500;
+}
+.p2{
+    text-align: center;
+}
+#diwali-manu1 button{
+    text-align: center;
+}
+.all-left-btn{
+    border: 1px solid #4B4BBA;
+    color: #4B4BBA;
+    position: relative;
+    top: 40px;
+    padding: 12px 25px;
+    border-radius: 40px;
+    font-size: 20px;
+}
+.all-left-btn:hover{
+    background-color: #4B4BBA;
+    color: white;
+}
+/* hero 2 */
+
+#iphone1-img{
+    background-image: url(./hero2_img.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.iphone-img{
+    width: 100%;
+    height: 80%;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 50px;
+}
+.heading{
+    font-size: 50px;
+    font-weight: 700;
+}
+.second-para{
+    font-size: 27px;
+}
+.second-all-right{
+    font-size: 18px;
+    padding: 12px 25px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 30px;
+    background-color: royalblue;
+    color: #FFFFFF;
+    font-weight: 500;
+}
+
+.second-all-right:hover{
+    background-color: rgb(77, 113, 224);
+}
+
+.second-btn-all{
+    background-color: black;
+    padding: 12px 25px;
+    color: rgb(79, 115, 225);
+    border: 1px solid rgb(79, 117, 231);
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.second-btn-all:hover{
+    color: white;
+    background-color: #4e4ece;
+}
+/* third hero */
+#iphone2-img{
+    background-image: url(./hero3_img.jpg);
+    background-color: #F5F5F7;
+    background-size: cover;
+    background-position: center;
+    margin-top: 15px;
+}
+#hero-btn{
+    background-color: white;
+    color: black;
+}
+#hero-btn:hover{
+    background-color: #4B4BBA;
+    color: white;
+}
+/* fourth hero */
+#fourth-hero{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #F5F5F7;
+    margin-top: 15px;
+    padding-right: 30px;
+}
+.fourth-1-box{
+    height: 90%;
+    width: 45%;
+    text-align: center;
+    margin-right: 15px;
+    padding-top: 20px;
+}
+#fourth-hero-1{
+    background-image:url(./iphone_17_forth_1st.jpg);
+    background-size:cover;
+    background-position: center;
+}
+
+.fourth-2-box{
+    height: 90%;
+    width: 45%;
+    text-align: center;
+    padding-top: 20px;
+}
+#fourth-hero-2{
+    background-image:url(./promo_apple_watch-fourth-2nd.jpg);
+    background-size:cover;
+    background-position: bottom;
+}
+#fifth-hero-1{
+    background-image:url(./airpodspro_3-fourth-1.jpg);
+    background-size:cover;
+    background-position: bottom;
+}
+#fifth-hero-2{
+    background-image:url(./apple_watch_se_3_fifth_2.jpg);
+    background-size:cover;
+    background-position: center;
+}
+#sixth-hero-1{
+    background-image:url(./macbook_air_sixth_1.jpg);
+    background-size:cover;
+    background-position: center;
+}
+#sixth-hero-2{
+    background-image:url(./iphone_tradein_sixth-2.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.9;
+    z-index: 99;
+}
+footer{
+    height: 80%;
+    width: 100%;
+    background-color: #F5F5F7;
+}
+.foot-para{
+    margin-top: 15px;
+    width: 100%;
+    padding-left: 20%;
+    padding-right:20%;
+    background-color: #F5F5F7;
+}
+.foot-para p{
+    font-size: 13px;
+    padding:12px 0px;
+    color: #8D8D8E;
+}
+.solid-line{
+    border: 1px solid #bbbbc7;
+}
+.bottom{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+}
+.bottom-item1{
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+}
+.bottom-item2{
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+}
+.bottom-item3{
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+}
+.bottom-item4{
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+}
+.bottom-item5{
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+}
+.bottom h5{
+    padding-bottom: 10px;
+    font-size: 12px;
+    font-weight: 500;
+}
+.bottom a{
+    color:#9A9A9B;
+    text-decoration: none;
+    font-size: 12px;
+    padding-bottom: 10px;
+}
+.bottom-item21 a{
+    display: flex;
+    padding-bottom: 10px;
+    font-size: 12px;
+    font-weight: 500;
+}
+.bottom-item1 a:hover{
+    text-decoration: underline;
+    color: #98989f;
+}
+.bottom-item2 a:hover{
+    text-decoration: underline;
+    color: #98989f;
+}
+.bottom-item3 a:hover{
+    text-decoration: underline;
+    color: #98989f;
+}
+.bottom-item4 a:hover{
+    text-decoration: underline;
+    color: #98989f;
+}
+.bottom-item5 a:hover{
+    text-decoration: underline;
+    color: #98989f;
+}
+
+.bottom-item51{
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+}
+.bottom-item41{
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+}
+.bottom-help{
+    width: 100%;
+    padding-left: 20%;
+    padding-right:20%;
+    background-color: #F5F5F7;
+    color: #7C7C7D;
+}
+.bottom-help p{
+    font-size: 13px;
+    padding-bottom: 25px;
+}
+.p2{
+    padding: 20px;
+}
