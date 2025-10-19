@@ -1,0 +1,180 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'helvetica neue';
+}
+html,body {
+    height:100%;
+    width:100%
+}
+#main{
+    height:100%;
+    width:100%;
+    background-image: url(./nav-back-img/back2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+/* navbar */
+#nav{
+    height:40px;
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    background:rgba(254,255,250,0.1);
+    backdrop-filter: blur(1px);
+    z-index: 100;
+}
+#nav img{
+    height:25px;
+    width: 170px;
+    margin-left:10px;
+}
+#search-bar{
+    position: relative;
+    right: 10px;
+}
+
+#search-bar input{
+    height: 23px;
+    width: 300px;
+    padding: 10px;
+    right: 10px;
+    border: none;
+    border-radius: 30px;
+    background-color: rgba(255,255,255,0.1);
+    color:rgba(255, 255, 255, 0.655);
+}
+#search-bar i{
+    position: absolute;
+    right: 5px;
+    top: 2px;
+    color: rgba(255, 255, 255, 0.655);
+    pointer-events: none;
+}
+#search-bar input:hover{
+    backdrop-filter: blur(14px);
+    background:rgba(255,255,255,0.1); ;
+}
+/* heading and para*/
+#para{
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    color: #C1B271;
+    line-height: 25px;
+}
+@font-face {
+    font-family: he;
+    src: url(./DarlingGirlDemoRegular.ttf);
+}
+.heading{
+    font-size: 20px;
+    font-family:he;
+}
+.prahraph{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 13px;
+}
+.menu-cards1{
+    height: 66%;
+    width: 100%;
+    display: flex;
+    justify-content:flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap:25px;
+    padding: 10px;
+}
+.card{
+    height: 100%;
+    width: 31%;
+    backdrop-filter: blur(1px);
+    background: rgba(254, 255, 250, 0.102);
+    border-radius: 10px;
+    text-align: center;
+    transition: all 0.3s ease-in;
+    box-shadow: 10px 10px 10px #7caea762;
+}
+.card:hover{
+    transform: translate(0px,-5px);
+}
+.card>img{
+    height: 110px;
+    width: 110px;
+    border-radius: 50%;
+    padding: 5px;
+}
+.card>h3{
+    font-size: 20px;
+    color: #C1B271;
+    font-family: he;
+}
+@font-face {
+    font-family: capa;
+    src: url(./Rosemartin.otf);
+}
+.card>p{
+    font-size: 10px;
+    font-family: capa;
+    line-height: 14px;
+    color: rgba(240, 255, 255, 0.815);
+    word-spacing: 2px;
+    font-weight: 100;
+}
+
+#follow-like{
+    padding-top: 30px;
+}
+.card button{
+    padding: 6px 15px;
+    border: 1px solid rgb(255, 0, 93);
+    border-radius: 20px;
+    background: transparent;
+    color: rgb(255, 0, 93);
+    font-size: 15px;
+    transition: all 0.3s ease-in;
+    cursor: pointer;
+}
+.card button:hover{
+    border: none;
+    background-color:royalblue ;
+    color: black;
+
+}
+.card i{
+    position: absolute;
+    right: 20px;
+    top: 28px;
+    color: rgb(255, 0, 93);
+    font-size: 30px;
+    transition: all 0.3s ease-in;
+}
+.card i:hover{
+    color: royalblue;
+    cursor: pointer;
+    font-size: 35px;
+}
+.menu-cards2{
+    height: 66%;
+    width: 100%;
+    display: flex;
+    justify-content:flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap:25px;
+    padding: 10px;
+    background-image: url(./nav-back-img/back2.jpg);
+    background-position: top;
+}
+.card-3{
+    background-image: url(./nav-back-img/back2.jpg);
+    background-position: top;
+}
+.card-4{
+    background-image: url(./nav-back-img/back2.jpg);
+    background-position: bottom;
+}
