@@ -18,10 +18,11 @@ It focuses on learning layout design, visual structure, and clean UI styling.
 - **CSS3** – For styling and layout
 ---
 ## 🌐 Live Demo & Repository Links
-📁 **Repository:** [GitHub Repository](https://github.com/vishalpatle/dribbble-homepage)
+🔗 **Live Demo:** jocular-cheesecake-422da0.netlify.app
+📁 **Repository:** https://github.com/Vishalpatle913/Frontend-Web-development-task-.git
 ---
-## 💻 How to Use
-1. Clone or download this repository.
-2. Open the project folder.
-3. Run `index.html` in your web browser.
-4. No server setup is required — it’s a static project.
+💻 How to Use
+Clone or download this repository.
+Open the project folder.
+Run index.html in your web browser.
+No server setup is required — it’s a static project.
