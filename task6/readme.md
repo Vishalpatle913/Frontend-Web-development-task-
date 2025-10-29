@@ -17,8 +17,8 @@ It focuses on learning layout design, visual structure, and clean UI styling.
 - **HTML5** – For building structure
 - **CSS3** – For styling and layout
 ---
-## 🌐 Live Demo & Repository Links
-📁 **Repository:** [GitHub Repository](https://github.com/vishalpatle/dribbble-homepage)
+## 🌐 Repository Links
+📁 **Repository:** https://github.com/Vishalpatle913/Frontend-Web-development-task-.git
 ---
 ## 💻 How to Use
 1. Clone or download this repository.
